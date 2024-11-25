@@ -10,6 +10,7 @@ namespace ExternalData
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
+        //Last name
         public string LastName { get; set; }
         //Major at their university
         public string Major { get; set; }
