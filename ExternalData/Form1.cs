@@ -45,6 +45,7 @@ namespace ExternalData
 
         public void AddStudentToDb(Student student)
         {
+            //Added comment for testing of Github
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 conn.Open();
